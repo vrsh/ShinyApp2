@@ -1,4 +1,7 @@
 library(shiny)
+library(ggplot2)
+library(dplyr)
+
 songs <- read.csv("songs.csv")
 ui <- fluidPage(
   titlePanel("Songs dataset", windowTitle = "Songs dataset"),
